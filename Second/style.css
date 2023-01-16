@@ -1,0 +1,50 @@
+#main-root{
+    display: flex;
+}
+.root1{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    align-items: center; 
+}
+.root1 h1{
+    width: 25vw;
+    color: #28E1DB;
+}
+.root1 p{
+    width: 25vw;
+    font-weight: bold;
+}
+.root1 a{
+    width: 5.5vw;
+    padding: 10px 30px 10px 30px ;
+    background-color: #f7e5b2;
+    border: none;
+    border-radius: 20px;
+}
+.root1 img{
+    width: 50vw;
+    height: auto;
+}
+#carouselExample{
+    width: 50vw;
+    border: 1px solid black;
+}
+.carousel-item  img {
+    border-radius: 10px;
+}
+.carousel-control-prev  span{
+    color: black;
+    background-color: black;
+    border-radius: 50%;
+}
+.carousel-control-next span{
+    color: black;
+    background-color: black;
+    border-radius: 50%;
+}
+#root2{
+    display: flex;
+    /* justify-content: ; */
+}
