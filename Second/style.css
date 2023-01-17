@@ -157,3 +157,30 @@
 .root11 img:hover{
     border: 2px solid #28E1DB;
 }
+#main_footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#item1 {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#item1 img{
+    width: 20vw;
+}
+#item2 p{
+    font-size: 5vh;
+    color: white;
+}
+#item2 {
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5vw;
+}
