@@ -16,7 +16,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 #main-header{
     margin: 0 20px 0 20px;
@@ -47,9 +46,7 @@ body{
     width: 30vw;
     font-weight: bold;
 }
-.root1 a{
-    width: 5.5vw;
-    padding: 10px 30px 10px 30px ;
+.root1 button{
     background-color: #f7e5b2;
     border: none;
     border-radius: 20px;
@@ -76,6 +73,7 @@ body{
 }
 #root2{
     display: flex;
+    align-items:center;
 }
 #root3{
     width: 50vw;
