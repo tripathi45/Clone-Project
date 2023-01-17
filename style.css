@@ -116,3 +116,73 @@ body{
 #root4 button:hover{
     border: 2px solid #28E1DB;
 }
+#root5{
+    display: flex;
+    margin-top: 4vh;
+}
+.root6{
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.root6 img{
+    width: 30vw;
+    border-radius: 1vh;
+}
+#root7{
+    width: 30vw;
+    align-items: center;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+#root7 img{
+    width: 6vw;
+    border-radius: 10px ;
+}
+#root7 img:hover{
+    border: 2px solid #28E1DB;
+}
+#root8{
+    width: 40vw;
+}
+#root9{
+    width: 35vw;
+}
+.root10{
+    display: flex;
+    margin-bottom: 2vh;
+}
+.root10 img{
+    width: 5vw;
+    transition: 0.2s;
+}
+.root10 p{
+    width: 18vw;
+    font-size: 2vh;
+}
+.root10 h2{
+    width: 18vw;
+    font-size: 2.5vh;
+}
+.root11 img{
+    width: 5vw;
+    transition: 0.2s;
+}
+.root11 p{
+    width: 18vw;
+    font-size: 2vh;
+}
+.root11 h2{
+    width: 18vw;
+    font-size: 2.5vh;
+}
+.root10 img:hover{
+    border: 2px solid #28E1DB;
+}
+.root11 img:hover{
+    border: 2px solid #28E1DB;
+}
