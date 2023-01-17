@@ -29,7 +29,6 @@
 }
 #carouselExample{
     width: 50vw;
-    border: 1px solid black;
 }
 .carousel-item  img {
     border-radius: 10px;
@@ -46,5 +45,45 @@
 }
 #root2{
     display: flex;
-    /* justify-content: ; */
+}
+#root3{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#root3 h1{
+    width: 20vw;
+    color: #28E1DB;
+}
+#root3 h2{
+    width: 30vw;
+}
+#root4{
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+}
+#root4 button{
+    width: 12vw;
+    height: 6vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7e5b2;
+    margin-top: 2vh;
+}
+.root4-child2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.root4-child1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#root4 button:hover{
+    border: 2px solid #28E1DB;
 }
